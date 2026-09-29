@@ -1,0 +1,17 @@
+# SpectreCLI Requirements
+# Biometric Authentication
+opencv-python>=4.8.0
+face-recognition==1.3.0
+mediapipe>=0.10.0
+
+# OSINT & Network Tools
+requests>=2.31.0
+phonenumbers>=8.13.0
+dnspython>=2.4.0
+python-whois>=0.9.0
+
+# UI & Formatting
+colorama>=0.4.6
+
+# Optional (for advanced features)
+numpy>=1.24.0

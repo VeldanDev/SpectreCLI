@@ -1,0 +1,46 @@
+# SpectreCLI Configuration Template
+# Copy this to config.ini and customize as needed
+
+[BIOMETRIC]
+# Face Authentication Settings
+face_data_file = owner_face.pkl
+face_samples = 10
+face_tolerance = 0.5
+face_timeout = 12
+
+# Gesture Authentication Settings
+gesture_timeout = 15
+gesture_stable_time = 0.8
+gesture_sequence = 3,1,4  # Comma-separated finger counts
+
+[NETWORK]
+# Request Timeout Settings (seconds)
+request_timeout = 4
+short_timeout = 3
+
+# DNS Settings
+dns_timeout = 5
+dns_nameserver = 8.8.8.8
+
+[LOGGING]
+# File Paths
+history_file = history.json
+audit_file = audit.json
+max_history = 1000  # Keep last N entries
+
+# Log Level
+log_level = INFO
+
+[UI]
+# Display Settings
+enable_colors = true
+banner_on_start = true
+refresh_timeout = 0.6
+
+[FEATURES]
+# Optional Features
+enable_whois = true
+enable_dns_query = true
+enable_http_headers = true
+enable_phone_analyzer = true
+enable_username_lookup = true

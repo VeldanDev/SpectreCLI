@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-specific
+*.pkl
+owner_face.pkl
+history.json
+audit.json
+auth.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Credentials & Sensitive
+.env
+.env.local
+config.ini
+credentials.json
+
+# Temporary
+*.tmp
+*.temp
+/tmp/
